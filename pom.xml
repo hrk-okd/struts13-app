@@ -7,7 +7,7 @@
   <artifactId>struts13-app</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>Struts Blank Archetype</name>
+  <name>Struts 13 app</name>
   <url>http://struts.apache.org/1.x</url>
   <dependencies>
     <dependency>
