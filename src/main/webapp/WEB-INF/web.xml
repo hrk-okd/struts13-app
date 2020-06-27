@@ -1,12 +1,19 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
-  <!DOCTYPE web-app PUBLIC
+<!DOCTYPE web-app PUBLIC
 	"-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
 	"http://java.sun.com/dtd/web-app_2_3.dtd">
-
 <web-app>
+
+<!--<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"-->
+<!--  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee-->
+<!--                      http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"-->
+<!--  version="4.0"-->
+<!--  metadata-complete="true">-->
+ 
   <display-name>Struts 13 app</display-name>
-  
+
   <!-- Standard Action Servlet Configuration -->
   <servlet>
     <servlet-name>action</servlet-name>
@@ -15,14 +22,8 @@
       <param-name>config</param-name>
       <param-value>/WEB-INF/struts-config.xml</param-value>
     </init-param>
-    <!--
-    <init-param>
-         <param-name>chainConfig</param-name>
-         <param-value>org/apache/struts/tiles/chain-config.xml</param-value>
-     </init-param>
-     -->
     <load-on-startup>2</load-on-startup>
- </servlet>
+  </servlet>
 
 
   <!-- Standard Action Servlet Mapping -->
@@ -36,5 +37,14 @@
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
+
+  <login-config>
+    <auth-method>FORM</auth-method>
+    <realm-name>app-realm</realm-name>
+    <form-login-config>
+      <form-login-page>/pages/login.html</form-login-page>
+      <form-error-page>/pages/login-error.html</form-error-page>
+    </form-login-config>
+  </login-config>
 
 </web-app>

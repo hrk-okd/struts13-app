@@ -1,4 +1,4 @@
-package my.struts.action;
+package my.struts.application.action;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -10,7 +10,6 @@ import org.apache.struts.action.ActionMapping;
 
 /**
  * 
- * @author hrk-okd
  */
 public class TestAction extends Action {
     

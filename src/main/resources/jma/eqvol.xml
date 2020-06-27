@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja">
+    <title>高頻度（地震火山）</title>
+    <subtitle>JMAXML publishing feed</subtitle>
+    <updated>2020-05-22T23:02:01+09:00</updated>
+    <id>urn:uuid:71738065-cd47-3c04-b4a5-e46f6ee5e89c</id>
+    <link rel="related" href="http://www.jma.go.jp/"/>
+    <link rel="self" href="http://www.data.jma.go.jp/developer/xml/feed/eqvol.xml"/>
+    <link rel="hub" href="http://alert-hub.appspot.com/"/>
+    <rights type="html"><![CDATA[
+<a href="http://www.jma.go.jp/jma/kishou/info/coment.html">利用規約</a>,
+<a href="http://www.jma.go.jp/jma/en/copyright.html">Terms of Use</a>
+]]></rights>
+    <entry>
+        <title>降灰予報（定時）</title>
+        <id>urn:uuid:49aa616b-e916-355c-915b-9875fed35f5a</id>
+        <updated>2020-05-22T14:00:00Z</updated>
+        <author>
+            <name>気象庁地震火山部</name>
+        </author>
+        <link type="application/xml"
+              href="http://www.data.jma.go.jp/developer/xml/data/49aa616b-e916-355c-915b-9875fed35f5a.xml"/>
+        <content type="text">
+            【火山名　霧島山（新燃岳）　降灰予報（定時）】　現在、霧島山（新燃岳）は噴火警戒レベル２（火口周辺規制）です。霧島山（新燃岳）で噴火が発生した場合には、２３日０９時から１２時までは火口から南西方向に降灰が予想されます。
+        </content>
+    </entry>
+    <entry>
+        <title>降灰予報（定時）</title>
+        <id>urn:uuid:2efea839-d185-3c2f-b1b6-1837d2a74e7f</id>
+        <updated>2020-05-22T14:00:00Z</updated>
+        <author>
+            <name>気象庁地震火山部</name>
+        </author>
+        <link type="application/xml"
+              href="http://www.data.jma.go.jp/developer/xml/data/2efea839-d185-3c2f-b1b6-1837d2a74e7f.xml"/>
+        <content type="text">
+            【火山名　諏訪之瀬島　降灰予報（定時）】　現在、諏訪之瀬島は噴火警戒レベル２（火口周辺規制）です。諏訪之瀬島で噴火が発生した場合には、２３日０９時から１２時までは火口から西方向に降灰が予想されます。
+        </content>
+    </entry>
+    <entry>
+        <title>降灰予報（定時）</title>
+        <id>urn:uuid:cf19689a-2df0-3bc6-9ff5-18464b9844d6</id>
+        <updated>2020-05-22T14:00:00Z</updated>
+        <author>
+            <name>気象庁地震火山部</name>
+        </author>
+        <link type="application/xml"
+              href="http://www.data.jma.go.jp/developer/xml/data/cf19689a-2df0-3bc6-9ff5-18464b9844d6.xml"/>
+        <content type="text">
+            【火山名　口永良部島　降灰予報（定時）】　現在、口永良部島は噴火警戒レベル３（入山規制）です。口永良部島で噴火が発生した場合には、２３日０９時から１２時までは火口から南西方向に降灰が予想されます。
+        </content>
+    </entry>
+    <entry>
+        <title>降灰予報（定時）</title>
+        <id>urn:uuid:36f5ad0d-b6c2-334b-b646-94238a4b3524</id>
+        <updated>2020-05-22T14:00:00Z</updated>
+        <author>
+            <name>気象庁地震火山部</name>
+        </author>
+        <link type="application/xml"
+              href="http://www.data.jma.go.jp/developer/xml/data/36f5ad0d-b6c2-334b-b646-94238a4b3524.xml"/>
+        <content type="text">
+            【火山名　薩摩硫黄島　降灰予報（定時）】　現在、薩摩硫黄島は噴火警戒レベル２（火口周辺規制）です。薩摩硫黄島で噴火が発生した場合には、２３日０９時から１２時までは火口から西方向に降灰が予想されます。
+        </content>
+    </entry>
+    <entry>
+        <title>降灰予報（定時）</title>
+        <id>urn:uuid:acf09690-8598-3796-9a33-1fd8531a6800</id>
+        <updated>2020-05-22T14:00:00Z</updated>
+        <author>
+            <name>気象庁地震火山部</name>
+        </author>
+        <link type="application/xml"
+              href="http://www.data.jma.go.jp/developer/xml/data/acf09690-8598-3796-9a33-1fd8531a6800.xml"/>
+        <content type="text">【火山名　桜島　降灰予報（定時）】　現在、桜島は噴火警戒レベル３（入山規制）です。桜島で噴火が発生した場合には、２３日０９時から１２時までは火口から南西方向に降灰が予想されます。
+        </content>
+    </entry>
+    <entry>
+        <title>降灰予報（定時）</title>
+        <id>urn:uuid:c273815b-71ed-3f0d-afcc-a0f6eb04580c</id>
+        <updated>2020-05-22T14:00:00Z</updated>
+        <author>
+            <name>気象庁地震火山部</name>
+        </author>
+        <link type="application/xml"
+              href="http://www.data.jma.go.jp/developer/xml/data/c273815b-71ed-3f0d-afcc-a0f6eb04580c.xml"/>
+        <content type="text">
+            【火山名　阿蘇山　降灰予報（定時）】　現在、阿蘇山は噴火警戒レベル２（火口周辺規制）です。阿蘇山で噴火が発生した場合には、２３日０９時から１２時までは火口から南西方向に降灰が予想されます。
+        </content>
+    </entry>
+    <entry>
+        <title>降灰予報（定時）</title>
+        <id>urn:uuid:cb2e5a6c-1caf-34b3-a057-8de392382142</id>
+        <updated>2020-05-22T14:00:00Z</updated>
+        <author>
+            <name>気象庁地震火山部</name>
+        </author>
+        <link type="application/xml"
+              href="http://www.data.jma.go.jp/developer/xml/data/cb2e5a6c-1caf-34b3-a057-8de392382142.xml"/>
+        <content type="text">
+            【火山名　草津白根山（白根山（湯釜付近））　降灰予報（定時）】　現在、草津白根山（白根山（湯釜付近））は噴火警戒レベル２（火口周辺規制）です。草津白根山（白根山（湯釜付近））で噴火が発生した場合には、２３日０９時から１２時までは火口から北方向に降灰が予想されます。
+        </content>
+    </entry>
+    <entry>
+        <title>噴火に関する火山観測報</title>
+        <id>urn:uuid:b036d22b-b5dd-3ce2-95af-5426a08d0a89</id>
+        <updated>2020-05-22T12:00:41Z</updated>
+        <author>
+            <name>福岡管区気象台</name>
+        </author>
+        <link type="application/xml"
+              href="http://www.data.jma.go.jp/developer/xml/data/b036d22b-b5dd-3ce2-95af-5426a08d0a89.xml"/>
+        <content type="text">【火山名　阿蘇山　噴火に関する火山観測報】火　　山：阿蘇山
+            日　　時：2020年05月22日21時00分（221200UTC）
+            現　　象：連続噴火継続
+        </content>
+    </entry>
+    <entry>
+        <title>震源・震度に関する情報</title>
+        <id>urn:uuid:459f4b58-69ec-3d2e-a5ff-8755c18a762d</id>
+        <updated>2020-05-22T11:15:47Z</updated>
+        <author>
+            <name>気象庁</name>
+        </author>
+        <link type="application/xml"
+              href="http://www.data.jma.go.jp/developer/xml/data/459f4b58-69ec-3d2e-a5ff-8755c18a762d.xml"/>
+        <content type="text">【震源・震度情報】２２日２０時１１分ころ、地震がありました。</content>
+    </entry>
+    <entry>
+        <title>震源に関する情報</title>
+        <id>urn:uuid:41b095d1-eaa1-39aa-87f6-1e8ffb86d927</id>
+        <updated>2020-05-22T11:14:52Z</updated>
+        <author>
+            <name>気象庁</name>
+        </author>
+        <link type="application/xml"
+              href="http://www.data.jma.go.jp/developer/xml/data/41b095d1-eaa1-39aa-87f6-1e8ffb86d927.xml"/>
+        <content type="text">【震源に関する情報】きょう２２日２０時１１分ころ、地震がありました。</content>
+    </entry>
+    <entry>
+        <title>震度速報</title>
+        <id>urn:uuid:e9c9894e-f189-30a5-a42c-111bd863dfe9</id>
+        <updated>2020-05-22T11:13:35Z</updated>
+        <author>
+            <name>気象庁</name>
+        </author>
+        <link type="application/xml"
+              href="http://www.data.jma.go.jp/developer/xml/data/e9c9894e-f189-30a5-a42c-111bd863dfe9.xml"/>
+        <content type="text">【震度速報】２２日２０時１１分ころ、地震による強い揺れを感じました。震度３以上が観測された地域をお知らせします。</content>
+    </entry>
+    <entry>
+        <title>降灰予報（定時）</title>
+        <id>urn:uuid:513b1e51-c2b5-3238-b78c-1d01876ec429</id>
+        <updated>2020-05-22T11:00:00Z</updated>
+        <author>
+            <name>気象庁地震火山部</name>
+        </author>
+        <link type="application/xml"
+              href="http://www.data.jma.go.jp/developer/xml/data/513b1e51-c2b5-3238-b78c-1d01876ec429.xml"/>
+        <content type="text">
+            【火山名　霧島山（新燃岳）　降灰予報（定時）】　現在、霧島山（新燃岳）は噴火警戒レベル２（火口周辺規制）です。霧島山（新燃岳）で噴火が発生した場合には、２２日２１時から２４時までは火口から西方向、２３日０９時から１２時までは火口から南西方向に降灰が予想されます。
+        </content>
+    </entry>
+    <entry>
+        <title>降灰予報（定時）</title>
+        <id>urn:uuid:6db62a82-10ea-3940-b313-59ef124d7caf</id>
+        <updated>2020-05-22T11:00:00Z</updated>
+        <author>
+            <name>気象庁地震火山部</name>
+        </author>
+        <link type="application/xml"
+              href="http://www.data.jma.go.jp/developer/xml/data/6db62a82-10ea-3940-b313-59ef124d7caf.xml"/>
+        <content type="text">
+            【火山名　諏訪之瀬島　降灰予報（定時）】　現在、諏訪之瀬島は噴火警戒レベル２（火口周辺規制）です。諏訪之瀬島で噴火が発生した場合には、２２日２１時から２４時までは火口から西方向、２３日０９時から１２時までは火口から西方向に降灰が予想されます。
+        </content>
+    </entry>
+    <entry>
+        <title>降灰予報（定時）</title>
+        <id>urn:uuid:d4e055ba-7045-360f-bc8b-d7ba235d79c4</id>
+        <updated>2020-05-22T11:00:00Z</updated>
+        <author>
+            <name>気象庁地震火山部</name>
+        </author>
+        <link type="application/xml"
+              href="http://www.data.jma.go.jp/developer/xml/data/d4e055ba-7045-360f-bc8b-d7ba235d79c4.xml"/>
+        <content type="text">
+            【火山名　口永良部島　降灰予報（定時）】　現在、口永良部島は噴火警戒レベル３（入山規制）です。口永良部島で噴火が発生した場合には、２２日２１時から２４時までは火口から西方向、２３日０９時から１２時までは火口から南西方向に降灰が予想されます。
+        </content>
+    </entry>
+    <entry>
+        <title>降灰予報（定時）</title>
+        <id>urn:uuid:86ea30e5-5428-38db-a910-5a2f8f4989a9</id>
+        <updated>2020-05-22T11:00:00Z</updated>
+        <author>
+            <name>気象庁地震火山部</name>
+        </author>
+        <link type="application/xml"
+              href="http://www.data.jma.go.jp/developer/xml/data/86ea30e5-5428-38db-a910-5a2f8f4989a9.xml"/>
+        <content type="text">
+            【火山名　薩摩硫黄島　降灰予報（定時）】　現在、薩摩硫黄島は噴火警戒レベル２（火口周辺規制）です。薩摩硫黄島で噴火が発生した場合には、２２日２１時から２４時までは火口から西方向、２３日０９時から１２時までは火口から西方向に降灰が予想されます。
+        </content>
+    </entry>
+    <entry>
+        <title>降灰予報（定時）</title>
+        <id>urn:uuid:fb99944a-5793-3b18-9403-81b645ea8d2d</id>
+        <updated>2020-05-22T11:00:00Z</updated>
+        <author>
+            <name>気象庁地震火山部</name>
+        </author>
+        <link type="application/xml"
+              href="http://www.data.jma.go.jp/developer/xml/data/fb99944a-5793-3b18-9403-81b645ea8d2d.xml"/>
+        <content type="text">
+            【火山名　桜島　降灰予報（定時）】　現在、桜島は噴火警戒レベル３（入山規制）です。桜島で噴火が発生した場合には、２２日２１時から２４時までは火口から西方向、２３日０９時から１２時までは火口から南西方向に降灰が予想されます。
+        </content>
+    </entry>
+    <entry>
+        <title>降灰予報（定時）</title>
+        <id>urn:uuid:dfbc96d6-2f1e-3b2f-932c-7f156ef0c0d6</id>
+        <updated>2020-05-22T11:00:00Z</updated>
+        <author>
+            <name>気象庁地震火山部</name>
+        </author>
+        <link type="application/xml"
+              href="http://www.data.jma.go.jp/developer/xml/data/dfbc96d6-2f1e-3b2f-932c-7f156ef0c0d6.xml"/>
+        <content type="text">
+            【火山名　阿蘇山　降灰予報（定時）】　現在、阿蘇山は噴火警戒レベル２（火口周辺規制）です。阿蘇山で噴火が発生した場合には、２２日２１時から２４時までは火口から北西方向、２３日０９時から１２時までは火口から西方向に降灰が予想されます。
+        </content>
+    </entry>
+    <entry>
+        <title>降灰予報（定時）</title>
+        <id>urn:uuid:518fd9c9-7ed0-39f5-810d-12144303b32b</id>
+        <updated>2020-05-22T11:00:00Z</updated>
+        <author>
+            <name>気象庁地震火山部</name>
+        </author>
+        <link type="application/xml"
+              href="http://www.data.jma.go.jp/developer/xml/data/518fd9c9-7ed0-39f5-810d-12144303b32b.xml"/>
+        <content type="text">
+            【火山名　草津白根山（白根山（湯釜付近））　降灰予報（定時）】　現在、草津白根山（白根山（湯釜付近））は噴火警戒レベル２（火口周辺規制）です。草津白根山（白根山（湯釜付近））で噴火が発生した場合には、２２日２１時から２４時までは火口から北方向、２３日０９時から１２時までは火口から北方向に降灰が予想されます。
+        </content>
+    </entry>
+    <entry>
+        <title>噴火に関する火山観測報</title>
+        <id>urn:uuid:e341cb25-bc62-30ac-8126-55fc35715c4b</id>
+        <updated>2020-05-22T10:45:45Z</updated>
+        <author>
+            <name>福岡管区気象台　鹿児島地方気象台</name>
+        </author>
+        <link type="application/xml"
+              href="http://www.data.jma.go.jp/developer/xml/data/e341cb25-bc62-30ac-8126-55fc35715c4b.xml"/>
+        <content type="text">【火山名　桜島　噴火に関する火山観測報】火　　山：桜島
+            日　　時：2020年05月22日19時35分（221035UTC） 第2報
+            現　　象：爆発
+        </content>
+    </entry>
+    <entry>
+        <title>噴火に関する火山観測報</title>
+        <id>urn:uuid:5c2d098c-eef1-3863-a7c6-270e0409bc53</id>
+        <updated>2020-05-22T10:39:17Z</updated>
+        <author>
+            <name>福岡管区気象台　鹿児島地方気象台</name>
+        </author>
+        <link type="application/xml"
+              href="http://www.data.jma.go.jp/developer/xml/data/5c2d098c-eef1-3863-a7c6-270e0409bc53.xml"/>
+        <content type="text">【火山名　桜島　噴火に関する火山観測報】火　　山：桜島
+            日　　時：2020年05月22日19時35分（221035UTC） 第1報
+            現　　象：爆発
+        </content>
+    </entry>
+</feed>
