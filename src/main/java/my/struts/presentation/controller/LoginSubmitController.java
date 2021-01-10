@@ -1,9 +1,9 @@
-package my.struts.application.controller;
+package my.struts.presentation.controller;
 
 import lombok.RequiredArgsConstructor;
-import my.struts.application.form.LoginForm;
+import my.struts.presentation.form.LoginForm;
 import my.struts.domain.model.UserInfo;
-import my.struts.domain.service.LoginService;
+import my.struts.usecase.LoginUsecase;
 import org.apache.struts.action.Action;
 import org.apache.struts.action.ActionForm;
 import org.apache.struts.action.ActionMapping;
@@ -24,7 +24,7 @@ public class LoginSubmitController implements ActionController {
     /**
      * ログインサービスです。
      */
-    private final LoginService loginService;
+    private final LoginUsecase loginUsecase;
 
     /**
      * {@inheritDoc}
@@ -38,7 +38,7 @@ public class LoginSubmitController implements ActionController {
 
         LoginForm loginForm = (LoginForm) form;
 
-        UserInfo userInfo = loginService.login(loginForm.getUserId(), loginForm.getPassword());
+        UserInfo userInfo = loginUsecase.login(loginForm.getUserId(), loginForm.getPassword());
         if (Objects.isNull(userInfo)) {
             return null;
         }

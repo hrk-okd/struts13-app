@@ -1,7 +1,6 @@
-package my.struts.domain.service.impl;
+package my.struts.usecase.impl;
 
 import my.struts.domain.model.UserInfo;
-import my.struts.domain.service.impl.LoginServiceImpl;
 import my.struts.domain.repository.UserRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -13,9 +12,9 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
-class LoginServiceImplTest {
+class LoginUsecaseImplTest {
 
-    private LoginServiceImpl target;
+    private LoginUsecaseImpl target;
 
     @Mock
     private UserRepository userRepository;
@@ -25,7 +24,7 @@ class LoginServiceImplTest {
 
     @BeforeEach
     void setup() {
-        target = new LoginServiceImpl(userRepository);
+        target = new LoginUsecaseImpl(userRepository);
     }
 
     @Test

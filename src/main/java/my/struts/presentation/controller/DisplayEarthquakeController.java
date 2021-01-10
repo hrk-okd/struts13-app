@@ -1,9 +1,9 @@
-package my.struts.application.controller;
+package my.struts.presentation.controller;
 
 import lombok.RequiredArgsConstructor;
-import my.struts.application.form.EarthquakeFeedForm;
+import my.struts.presentation.form.EarthquakeFeedForm;
 import my.struts.domain.model.JmaFeed;
-import my.struts.domain.service.EarthquakeService;
+import my.struts.usecase.EarthquakeUsecase;
 import org.apache.struts.action.Action;
 import org.apache.struts.action.ActionForm;
 import org.apache.struts.action.ActionMapping;
@@ -28,7 +28,7 @@ public class DisplayEarthquakeController implements ActionController {
     /**
      * 地震情報取得サービスです。
      */
-    private final EarthquakeService earthquakeService;
+    private final EarthquakeUsecase earthquakeUsecase;
 
     /**
      * モデルマッパーです。
@@ -45,7 +45,7 @@ public class DisplayEarthquakeController implements ActionController {
             @NonNull final HttpServletRequest request,
             @NonNull final HttpServletResponse response) {
 
-        JmaFeed feed = earthquakeService.getFeed();
+        JmaFeed feed = earthquakeUsecase.getFeed();
         if (Objects.isNull(feed) || CollectionUtils.isEmpty(feed.getEntryList())) {
             return null;
         }

@@ -15,8 +15,8 @@
             type="app.InputForm"/>
     end sample -->
 
-        <form-bean name="LoginForm" type="my.struts.application.form.LoginForm" />
-        <form-bean name="EarthquakeFeedForm" type="my.struts.application.form.EarthquakeFeedForm" />
+        <form-bean name="LoginForm" type="my.struts.presentation.form.LoginForm" />
+        <form-bean name="EarthquakeFeedForm" type="my.struts.presentation.form.EarthquakeFeedForm" />
     </form-beans>
 
 
@@ -52,7 +52,7 @@
 
         <action
             path="/Test"
-            type="my.struts.application.action.TestAction"
+            type="my.struts.presentation.action.TestAction"
             scope="request">
             <forward name="test" path="/pages/Test.jsp" />
         </action>
@@ -63,7 +63,7 @@
 
         <action
             path="/LoginSubmit"
-            type="my.struts.application.action.LoginSubmitAction"
+            type="my.struts.presentation.action.LoginSubmitAction"
             name="LoginForm"
             input="/pages/Login.jsp"
             scope="request">
@@ -72,7 +72,7 @@
 
         <action
                 path="/DisplayEarthquake"
-                type="my.struts.application.action.DisplayEarthquakeAction"
+                type="my.struts.presentation.action.DisplayEarthquakeAction"
                 name="EarthquakeFeedForm"
                 scope="request">
             <forward name="success" path="/pages/DisplayEarthquake.jsp" />

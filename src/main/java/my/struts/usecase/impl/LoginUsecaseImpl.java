@@ -1,6 +1,6 @@
-package my.struts.domain.service.impl;
+package my.struts.usecase.impl;
 
-import my.struts.domain.service.LoginService;
+import my.struts.usecase.LoginUsecase;
 import org.springframework.lang.NonNull;
 import org.springframework.lang.Nullable;
 
@@ -14,7 +14,7 @@ import org.springframework.stereotype.Service;
  */
 @Service
 @RequiredArgsConstructor
-public class LoginServiceImpl implements LoginService {
+public class LoginUsecaseImpl implements LoginUsecase {
 
     /**
      * ユーザ情報取得用レポジトリです。

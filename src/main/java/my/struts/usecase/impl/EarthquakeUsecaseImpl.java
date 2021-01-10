@@ -1,9 +1,9 @@
-package my.struts.domain.service.impl;
+package my.struts.usecase.impl;
 
 import lombok.RequiredArgsConstructor;
 import my.struts.domain.model.JmaFeed;
 import my.struts.domain.repository.JmaRepository;
-import my.struts.domain.service.EarthquakeService;
+import my.struts.usecase.EarthquakeUsecase;
 import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Service;
 
@@ -14,7 +14,7 @@ import static java.util.Objects.isNull;
  */
 @Service
 @RequiredArgsConstructor
-public class EarthquakeServiceImpl implements EarthquakeService {
+public class EarthquakeUsecaseImpl implements EarthquakeUsecase {
 
     /**
      * 気象庁情報取得用レポジトリです。

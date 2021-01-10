@@ -1,4 +1,4 @@
-package my.struts.domain.service.impl;
+package my.struts.usecase.impl;
 
 import my.struts.domain.repository.JmaRepository;
 import org.junit.jupiter.api.BeforeEach;
@@ -10,16 +10,16 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @ExtendWith(MockitoExtension.class)
-class EarthquakeServiceImplTest {
+class EarthquakeUsecaseImplTest {
 
-    private EarthquakeServiceImpl target;
+    private EarthquakeUsecaseImpl target;
 
     @Mock
     private JmaRepository jmaRepository;
 
     @BeforeEach
     void setup() {
-        target = new EarthquakeServiceImpl(jmaRepository);
+        target = new EarthquakeUsecaseImpl(jmaRepository);
     }
 
     @Test

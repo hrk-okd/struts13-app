@@ -1,4 +1,4 @@
-package my.struts.application.action;
+package my.struts.presentation.action;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -8,7 +8,7 @@ import org.apache.struts.action.ActionForm;
 import org.apache.struts.action.ActionForward;
 import org.apache.struts.action.ActionMapping;
 
-import my.struts.application.controller.LoginSubmitController;
+import my.struts.presentation.controller.LoginSubmitController;
 import my.struts.config.ConfigBuilder;
 
 /**

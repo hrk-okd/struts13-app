@@ -1,6 +1,6 @@
-package my.struts.application.action;
+package my.struts.presentation.action;
 
-import my.struts.application.controller.DisplayEarthquakeController;
+import my.struts.presentation.controller.DisplayEarthquakeController;
 import my.struts.config.ConfigBuilder;
 import org.apache.struts.action.Action;
 import org.apache.struts.action.ActionForm;

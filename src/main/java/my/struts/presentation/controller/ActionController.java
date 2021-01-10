@@ -1,4 +1,4 @@
-package my.struts.application.controller;
+package my.struts.presentation.controller;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

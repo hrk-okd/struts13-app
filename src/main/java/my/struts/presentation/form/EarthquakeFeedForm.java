@@ -1,4 +1,4 @@
-package my.struts.application.form;
+package my.struts.presentation.form;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

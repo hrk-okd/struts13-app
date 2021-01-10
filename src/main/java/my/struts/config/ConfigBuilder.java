@@ -1,7 +1,7 @@
 package my.struts.config;
 
-import my.struts.application.controller.DisplayEarthquakeController;
-import my.struts.application.controller.LoginSubmitController;
+import my.struts.presentation.controller.DisplayEarthquakeController;
+import my.struts.presentation.controller.LoginSubmitController;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.lang.NonNull;
 
